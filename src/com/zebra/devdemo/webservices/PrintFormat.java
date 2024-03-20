@@ -20,7 +20,7 @@ import java.util.Map;
 @WebServlet(urlPatterns = {"/PrintFormat"})
 public class PrintFormat extends HttpServlet {
 
-    private static final String NAME_BADGE_DESTINATION = "R:NAMEBADGE.ZPL";
+    private static final String NAME_BADGE_DESTINATION = "E:NAMEBADGE.ZPL";
 
     public static final String NAME_BADGE_FORMAT = "^XA\n" +
             "^DF" + NAME_BADGE_DESTINATION + "\n" +
