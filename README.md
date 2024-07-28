@@ -1,3 +1,5 @@
+Update: This is for educational purpose, outdated but still can be used for on-premise Infor Servers. Infor Cloud uses Infor ION API, and a simplier approach is made on different project using Node.js to parse json data into ZPL command and send to designated printer.
+
 1	Introduction
 
 Infor WMS has already Loftware Automation as a primary solution for label printing. This is for those who are looking for alternative solution.
@@ -62,7 +64,7 @@ Sample XML
 ```xml
 <LABELS>
 	<Header>
-		<Serial>XXRBJ194601164</Serial>
+		<Serial>XXRBJ12345678</Serial>
 		<QUANTITY>1</QUANTITY>
 	</Header>
 
@@ -70,7 +72,7 @@ Sample XML
 		<TYPE> STOCK</TYPE>
 		<STORECODE>214 </STORECODE>
 		<DATE>03-FEB-2024</DATE>
-		<STORENAME>RSC PAMPANGA</STORENAME>
+		<STORENAME>STORE PAMPANGA</STORENAME>
 		<QTY>12</QTY>
 		<BAR>XXXX</BAR>
 	</Data>
@@ -79,7 +81,7 @@ Sample XML
 		<TYPE> XDOCK</TYPE>
 		<STORECODE>2124 </STORECODE>
 		<DATE>03-FEB-2024</DATE>
-		<STORENAME>RSC PAMPANGA</STORENAME>
+		<STORENAME>STORE PAMPANGA</STORENAME>
 		<QTY>12</QTY>
 		<BAR>XXXX</BAR>
 	</Data>
